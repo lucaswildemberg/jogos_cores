@@ -1,9 +1,19 @@
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+}
+body {
+  background: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
 .lata_cor{
-        border-radius: 25px;
-        padding: 20px; 
-        width: 200px;
-        height: 150px; 
-        margin-left: 20px
+    border-radius: 100%;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
 }
 
 .vermelho{
@@ -24,13 +34,18 @@
     margin-top: 20px;
 }
 .controle{
-    margin-top: 25px;
-    margin-bottom: 5px;  
+    margin-top: 5px;
 }
 
 .controle_geral{
-    border: 2px solid red;
-    border-radius: 25px;
-    margin:5px 10px;    
-    padding: 10px;  
+  border-radius: 100%;
+  margin: 5px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.custom-range {
+  margin-bottom: 10px;
 }
